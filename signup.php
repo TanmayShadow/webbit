@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pccoe Notes</title>
 
     <!-- styles.css -->
     <link href="./styles.css" rel="stylesheet"/>
@@ -44,7 +44,7 @@
         <!-- Left links -->
         <ul class="navbar-nav me-auto d-flex flex-row mt-3 mt-lg-0">
             <li class="nav-item text-center mx-2 mx-lg-1">
-            <a class="nav-link active" aria-current="page" href="index.php">
+            <a class="nav-link active" aria-current="page" href="index.html">
                 <div>
                 <i class="fas fa-home fa-lg mb-1"></i>
                 </div>
@@ -192,7 +192,8 @@
 </html>
 
 <?php
-if(isset($_POST['button'])){
+session_start();
+if(isset($_POST['submit'])){
   $con = mysqli_connect("sql211.ultihost.net","ufhne_33878215","sH2VR1Fp","ufhne_33878215_pccoenotes");
   $query="insert into usertable (user,password,email) values('".$_POST['user']."','".$_POST['password']."','".$_POST['emial']."')";
   if(mysqli_query($con,$query))

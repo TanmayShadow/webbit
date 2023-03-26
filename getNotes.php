@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pccoe Notes</title>
 
     <!-- styles.css -->
     <link href="./styles.css" rel="stylesheet"/>
@@ -40,7 +40,7 @@
         <!-- Left links -->
         <ul class="navbar-nav me-auto d-flex flex-row mt-3 mt-lg-0">
             <li class="nav-item text-center mx-2 mx-lg-1">
-            <a class="nav-link active" aria-current="page" href="index.php">
+            <a class="nav-link active" aria-current="page" href="index.html">
                 <div>
                 <i class="fas fa-home fa-lg mb-1"></i>
                 </div>
@@ -57,7 +57,7 @@
             </a>
             </li>
             <li class="nav-item text-center mx-2 mx-lg-1">
-            <a class="nav-link active"  href="#!">
+            <a class="nav-link active"  href="./uploadnotes.php">
                 <div>
                 <i class="fas fa-lg  fa-upload mb-1"></i>
                 <!-- <span class="badge rounded-pill badge-notification bg-dark">11</span> -->
